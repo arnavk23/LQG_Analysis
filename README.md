@@ -1,1 +1,0 @@
-# LQG_Analysis
