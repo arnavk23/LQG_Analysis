@@ -1,0 +1,1861 @@
+Thermodynamics of AdS-Schwarzschild-like black hole in
+loop quantum gravity
+Rui-Bo Wang, Shi-Jie Ma, Lei You, Yu-Cheng Tang,
+
+arXiv:2405.08241v4 [gr-qc] 23 Nov 2024
+
+Yu-Hang Feng, Xian-Ru Hu, and Jian-Bo Deng∗
+Lanzhou Center for Theoretical Physics,
+Key Laboratory of Theoretical Physics of Gansu Province,
+Lanzhou University, Lanzhou, Gansu 730000, China
+(Dated: November 26, 2024)
+
+1
+
+Abstract
+We obtained the metric of the Schwarzschild-like black hole with loop quantum gravity
+(LQG) corrections in anti-de Sitter (AdS) space-time, under the assumption that the cosmological constant is decoupled in LQG. We investigated its thermodynamics, including
+the equation of state, criticality, heat capacity, and Gibbs free energy. The P − v graph
+was plotted, and the critical behavior was calculated. It was found that, due to the LQG
+effect, the quantum-corrected Schwarzschild-AdS black hole exhibits a critical point and a
+critical ratio of 7/18, which differs from the Reissner-Nordström-AdS black hole’s ratio of
+3/8 (the same as that of the Van der Waals system) slightly. However, there are still some
+similarities compared to the Van der Waals system, such as the same critical exponents
+and a similar P − v graph. Moreover, it is concluded that the energy-momentum tensor
+related to the black hole’s mass could violate the conventional first law of thermodynamics.
+This modified first law may violate the conservation of Gibbs free energy during the small
+black hole-large black hole phase transitions, potentially indicating the occurrence of the
+zeroth-order phase transition. The Joule-Thomson expansion was also studied. Interestingly, compared to the Schwarzschild-AdS black hole, the LQG effect leads to inversion
+points. The inversion curve divides the (P, T ) coordinate system into two regions: a heating region and a cooling region, as shown in detail by the inversion curves and isenthalpic
+curves. The results indicated that there is a minimum inversion mass, below which any
+
+2
+
+black hole will not possess an inversion point.
+
+∗
+
+Email: dengjb@lzu.edu.cn
+
+3
+
+I.
+
+INTRODUCTION
+
+Since in 1983, Hawking and Page made their groundbreaking research on the thermodynamics of AdS black holes and discovered the phase transitions in SchwarzschildAdS black holes [1], black hole thermodynamics has attracted widespread attention
+of researchers. In 1999, Chamblin discovered that there is the first-order phase
+transition in RN-AdS black holes, which is similar to the gas-liquid phase transition [2, 3]. Kastor suggested that the mass of an AdS black hole should be regarded
+as its enthalpy, with the cosmological constant related to pressure, resulting in the
+first law of AdS black holes in an extended phase space [4]. The equation of state for
+rotating and higher-dimensional black holes was studied in [5]. In research [6], the
+authors introduced the criticality of charged-AdS black holes in detail. An interesting result is that the critical ratios (Pc vc /Tc ) of many black holes exhibit only a slight
+deviation from (or are even exactly equal to) the result of the Van der Waals system
+3/8 [6–16], which exactly matches that of the Van der Waals system. However, this
+deviation can also be significant [17–23]. A notable finding is that M. M. Stetsko
+discovered in his work that the critical ratio for a four-dimensional static black hole
+in minimal Horndeski gravity with Maxwell and Yang-Mills fields is 75/512, which
+is clearly less than 3/8 [24]. These anomalies may provide important implications
+for black hole thermodynamics and even for the studies of real gases.
+The theme of this paper is the thermodynamics of a type of quantum-corrected
+4
+
+black holes. In comparison to classical Einstein gravity, quantum effects are widely
+considered by physicists. The theory that incorporates quantum electrodynamics
+(QED) and its implications for black holes have been researched in [25, 26]. The
+thermodynamics of these black holes was studied in [7], revealing that the QED parameter significantly influences phase transitions and criticality [27, 28]. Moreover,
+the impact of high-order QED corrections on black hole phase transitions is also
+discussed [8]. On the other hand, in [29], the authors studied low-energy one-loop
+quantum corrections to the Schwarzschild geometry. In their expositions, general
+relativity is fundamentally a quantum field theory described by effective field theory,
+which suggests that low-energy degrees of freedom organize themselves as quantum
+fields governed by a local Lagrangian [30]. Loop quantum gravity (LQG) has received considerable attention. In LQG, space-time is discretized into a series of tiny
+units called loops, and the properties of black holes in this framework have been
+widely studied [31–38]. Recently, a quantum-corrected Schwarzschild space-time in
+LQG has been proposed [39]. Interestingly, based on optical properties, the authors
+suggested that gravitational collapse in this model could be expressed as a process
+of white hole’s generation [39–41]. In thermodynamics, black hole entropy in LQG
+was discussed in [42].
+
+In this paper, we intend to study the thermodynamics of Schwarzschild-like black
+holes in AdS space, including the thermodynamic first law, the equation of state
+5
+
+and its criticality. The Joule-Thomson expansion will be discussed as well. Our
+work aims to enrich the thermodynamics of AdS black holes in LQG and provide a
+reference for theoretical studies or potential observations in the future. This article
+is organized as follows: In Sect. II, we obtain the metric of the AdS-Schwarzschildlike black hole in LQG, discuss the existence of black hole solutions. In Sect. III,
+we investigate the thermodynamics in detail, including the modified first law, the
+equation of state, behavior of the critical point, the heat capacity and the Gibbs
+free energy. In Sect. IV, the Joule-Thomson process is researched. We calculate the
+inversion and show the inversion curves and the black hole’s isenthalpic curves at
+length. Finally, we provide our conclusion and outlook in Sect. V. In this article, we
+use natural units G = ℏ = kB = c = 1.
+
+II.
+
+ADS-SCHWARZSCHILD-LIKE BLACK HOLE IN LQG
+
+The metric of Schwarzschild-like black hole in LQG is [39]
+ds2 = −f (r) dt2 +
+
+1
+dr2 + r2 dθ2 + r2 sin2 θdϕ2 ,
+f (r)
+
+(1)
+
+with
+f (r) = 1 −
+
+2M
+αM 2
++ 4 ,
+r
+r
+
+(2)
+
+√
+where α = 16 3πγ 3 , with γ being the Barbero-Immirzi parameter in LQG [43]. α
+has a dimension of [L2 ], and γ is a dimensionless parameter. It should be noted
+6
+
+that γ is argued to be around 0.2 [44, 45], and interestingly, the calculation in [44]
+suggests that γ is approximately 0.2375. This value has been widely used in [39–
+41, 46]. Therefore, in this article, we assume α to be positive and choose γ as 0.2375
+or around 0.2 to ensure the accuracy of the figures and table presented.
+Assuming that the cosmological constant is decoupled in LQG theory. According
+to the metric generation approach discussed in [47], AdS-Schwarzschild-like black
+hole in LQG is described by
+2M
+αM 2 Λr2
++ 4 −
+.
+r
+r
+3
+
+f (r) = 1 −
+
+(3)
+
+The black hole solution requires f (r+ ) = 0, which leads to
+M=
+
+2
+3
+± r+
+3r+
+
+p
+2
+2
+−9α + 9r+
++ 3αΛr+
+,
+3α
+
+(4)
+
+where r+ is the radius of event horizon. The positive branch is discarded because it
+can not converge to the Schwarzschild-AdS case when α → 0, but instead diverges
+to infinity. The black hole solution requires that both M and r+ are positive real
+numbers, which gives this following constraint,
+β :=
+
+3 + αΛ
+> 0,
+3
+
+(5)
+
+or a constraint on γ
+16πγ 3 Λ +
+This condition is shown in Fig. 1.
+7
+
+√
+
+3 > 0.
+
+(6)
+
+γ
+0
+0
+
+0.1
+
+-3
+
+black holes
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+16πΛγ3 + 3 =0
+
+-6
+Λ
+-9
+
+no black hole solutions
+
+- 12
+- 15
+
+Figure 1: The parameter space (γ, Λ) distinguishes between black hole solutions
+and non-black hole solutions. The blue region represents the existence of black
+hole, while the white region indicates the absence of black hole solutions.
+
+And there is a minimum radius of event horizon
+r
+r+ ≥
+
+α
+min
+= r+
+.
+β
+
+(7)
+
+The negative branch of Eq. 4 with the condition Eq. 7 will give a minimum mass for
+the black hole:
+
+Mmin =
+
+√
+
+
+α
+
+√
+
+3 − 4β + 9 − 8β
+6β − 6β 2
+
+ 23
+
+
+1 −
+
+s
+
+−3β + 2β 2 + β
+3 − 4β +
+
+√
+
+√
+
+
+
+9 − 8β 
+,
+9 − 8β
+
+(8)
+
+√
+√
+It could be verified that lim Mmin = 4 α/3 3, which agrees with the conclusion
+Λ→0
+
+in [39].
+8
+
+III.
+
+A.
+
+THERMODYNAMICS
+
+Thermodynamic functions and the first law
+
+The black hole’s temperature could be obtained from its surface gravity
+p
+2
+2
+4
+4
+2
++ −9αr+
+− αΛr+
++ 3αΛr+
+2α − 3r+
++ 9r+
+f ′ (r+ )
+T =
+=
+.
+4π
+2παr+
+
+(9)
+
+In the extended phase space, the cosmological constant is related with the pressure [4]
+P =−
+
+Λ
+.
+8π
+
+(10)
+
+In black hole thermodynamics, the mass M of the black hole is regarded as its
+enthalpy [4], and the first law can be expressed as follows:
+dM = T dS + V dP.
+Using this, the entropy could be calculated as
+
+
+p
+p
+
+4
+2
+2
+Z 
+2
+2
+π β r+ − αβr+ + πα ln 3βr+ + 9β r+ − 9αβ
+dM
+√
+S=
+=
+.
+T P
+β β
+
+(11)
+
+(12)
+
+Of note is that Bekenstein-Hawking area relation does not hold in this context. In
+fact, this type of energy-momentum tensor, which includes the black hole’s mass M ,
+will violate the conventional first law. This problem could be resolved by modifying
+the first law [21, 48]. The modified first law is expressed as
+dM = T dS + V dP,
+9
+
+(13)
+
+where dM = W (r+ , Λ) dM , and W is called correction function
+Z +∞
+4πr
+
+W =1+
+
+0
+2 ∂T0
+
+r+
+
+∂M
+
+dr,
+
+(14)
+
+where the energy-momentum tensor T00 satisfies the Einstein equation
+1
+Rµν − δµν R + δµν Λ = 8πTµν .
+2
+
+(15)
+
+Eq. 14 is general and we will provide a brief proof in Appendix. A. Specifically, for
+the black hole under discussion, W is
+s
+1−
+
+W (r+ , Λ) =
+
+2
+3α − αΛr+
+.
+2
+3r+
+
+(16)
+
+Now the entrophy could be obtained by the new first law
+Z 
+S=
+
+dM
+T
+
+
+
+Z
+=
+P
+
+1
+T
+
+
+
+∂M
+∂r+
+
+
+
+2
+dr+ = πr+
+,
+
+(17)
+
+P
+
+which precisely accords with Bekenstein-Hawking function S = A/4. The thermodynamic volume of the black hole is
+
+V =
+
+∂M
+∂P
+
+
+
+
+= W (r+ , Λ)
+
+S
+
+∂M
+∂P
+
+
+=
+r+
+
+3
+4πr+
+.
+3
+
+(18)
+
+One could demonstrate that the differential form dM = T dS + V dP is not exact
+generally. In other words, it is impossible to define a scalar function M such that it
+satisfies the modified first law.
+10
+
+B.
+
+Equation of state and critical point
+
+From Eq. 9, one could get the expression of P as
+p
+2
+4
+3
+2
++ 9r+
+− 24παT r+
+−4α + 4παT r+ + 3r+
+± −12αr+
+.
+P =
+2
+16απr+
+
+(19)
+
+One could find that the positive branch has no physical significance because it does
+not converge to the result of the Schwarzschild-AdS black hole if α → 0. Here, we
+introduce the specific volume v = 2r+ [6, 49], the equation of state is written as
+√
+−16α + 8παT v + 3v 2 − −48αv 2 − 48παT v 3 + 9v 4
+P =
+.
+16απv 2
+
+(20)
+
+Now we investigate criticality. The critical point is obtained by
+∂P
+= 0,
+∂v
+which leads to
+21
+,
+Pc =
+2000απ
+
+∂ 2P
+= 0,
+∂v 2
+
+√
+20 5α
+vc =
+,
+9
+
+√
+3 5
+√ .
+Tc =
+50π α
+
+(21)
+
+(22)
+
+Compared to a normal Schwarzschild-AdS black hole, the LQG correction introduces
+a critical point. We take γ = 0.2375 for an example and plot the P − v graph in
+Fig. 2.
+The figure reveals that the behavior of isothermal curve is similar to that of Van
+der Waals fluid. And it is necessary to point out that in the P − v graph, v cannot
+be arbitrarily small, as Eq. 7 and Eq. 20 will yield a minimum value of r+ for a fixed
+11
+
+0.025
+
+T <T c
+T =T c
+
+0.020
+
+T >T c
+
+0.015
+P
+0.010
+0.005
+0.000
+2
+
+(vc ,Pc )
+
+4
+
+6
+
+8
+
+10
+
+12
+
+14
+
+16
+
+v
+
+Figure 2: The P − v graph for the AdS-Schwarzschild-like black hole in LQG. The
+red, orange and blue lines correspond to T = 0.78Tc , T = Tc and T = 1.3Tc . The
+black point on the orange line is the critical point. We set γ = 0.2375.
+temperature T :
+2
+min
+r+
+=
+3
+
+
+
+2απT +
+
+√
+
+3α + 4α2 π 2 T 2
+
+
+
+.
+
+(23)
+
+The critical ratio is
+P c vc
+7
+= .
+Tc
+18
+
+(24)
+
+This result is different from that of the RN-AdS black hole, which is also the result
+of the Van der Waals system [6]. An interesting phenomenon is that the critical
+ratios of many black holes show only a slight difference from 3/8 [6–16]. However,
+this discrepancy also can be significant [17–23]. A typical example is found in the
+work of M. M. Stetsko, who discovered that the critical ratio for a four-dimensional
+12
+
+static black hole in minimal Horndeski gravity with Maxwell and Yang-Mills fields is
+75/512, which is noticeably less than 3/8 [24]. These anomalies will provide valuable
+insights for the study of black hole thermodynamics and the equations of state for
+gases. Specifically, among the numerous data points, two results are particularly close
+to our findings. In [18], the authors found that z = 4 Hořava-Lifshitz black holes
+with hyperbolic horizons could exhibit two critical points, resulting in two critical
+ratios 0.463188 and 0.386812, the latter of which is close to 7/18. Additionally,
+critical ratio of the Hayward-AdS black hole is 0.393031, which is also very close to
+our result [17].
+Furthermore, defining
+p=
+
+P
+,
+Pc
+
+ν=
+
+v
+,
+vc
+
+τ=
+
+T
+,
+Tc
+
+(25)
+
+one could derive the equation of corresponding state
+√ r
+125 9τ
+27
+5 5
+18τ
+27
+p=
++
+− 2−
+125 −
+− 2.
+7
+7ν 7ν
+7
+ν
+ν
+
+C.
+
+(26)
+
+Heat capacity and Gibbs free energy
+
+The isobaric heat capacity is
+
+CP = T
+
+∂S
+∂T
+
+
+=
+P
+
+2
+2πr+
+
+
+
+p
+p
+2
+2
+4
+2
+−3α + 3βr+
+3βr+
+− 2α − 9βr+
+− 9αr+
+p
+√
+.
+3
+2
+2
+−3 3βr+
++ (2α + 3βr+
+) 3βr+
+− 3α
+
+The graph of the isobaric heat capacity is shown in Fig. 3.
+13
+
+(27)
+
+5
+
+15
+
+0
+-5
+- 10
+
+2
+
+4
+
+6
+r+
+(a)
+
+8
+
+1.0
+0.8
+C p/103
+
+20
+
+C p/103
+
+C p/103
+
+10
+
+10
+
+0.6
+0.4
+
+5
+
+0.2
+
+0
+
+0.0
+
+10
+
+2
+
+4
+
+6
+r+
+(b)
+
+8
+
+10
+
+2
+
+4
+
+6
+r+
+(c)
+
+8
+
+10
+
+Figure 3: The isobaric heat capacity of the black hole. We set γ = 0.2375 and
+(a)P = 0.5Pc ; (b)P = Pc ; (c)P = 1.5Pc .
+
+As shown in the figure, the heat capacity diverge to infinity at the phase transition
+point, which is marked by the dashed lines. When P < Pc (see Fig. 3(a)), the
+small black holes-large black holes phase transition is similar to the first-order phase
+transition in traditional thermodynamics. At the critical point (see Fig. 3(b)), the
+phase transition is similar to the second-order phase transition. We will reanalyze
+this phase transition later by calculating the Gibbs free energy.
+It should be noticed that when r+ is small,
+s
+r+ <
+
+√
+3 + 4αΛ − 9 − 24αΛ
+,
+2Λ (3 + αΛ)
+
+(28)
+
+CP is negative. This means that a black hole with a small radius of the horizon is
+unstable. This negative region of CP is shown in Fig. 4.
+Now we intend to investigate the Gibbs free energy. Although the differential
+14
+
+1.5
+
+P=0.5Pc
+P= P c
+
+1.0
+
+Cp
+
+P=1.5Pc
+
+0.5
+
+0.0
+
+- 0.5
+
+1.10
+
+1.15
+
+1.20
+
+1.25
+
+1.30
+
+1.35
+
+r+
+
+Figure 4: The isobaric heat capacity will be negative if r+ is too small. In the
+figure, r+ ∈ [1.08, 1.35] and γ = 0.2375.
+form −SdT + V dP is not exact because the first law has been modified, we still
+define the Gibbs free energy as follows:
+2
+3
+3
+− 6αr+ − 5r+
++ 3αΛr+
+15r+
+G = M − TS =
+6α
+
+p
+
+2
+2
+9r+
++ 3αΛr+
+− 9α
+
+.
+
+(29)
+
+The Gibbs free energy is shown in Fig. 5. The behavior of Gibbs free energy is
+similar to that of the Van der Waals system, G is multivalued when phase transition
+occurs. But, there are also some differences. In fact, G (T ) is not necessarily a selfintersecting function even for P < Pc . Even if G (T ) has intersection points, these
+points do not indicate phase transition points. In the Van der Waals system, the
+first-order phase transition is an isothermal and isobaric process, and since dG =
+−SdT + V dP holds, the Gibbs free energy is conserved during the phase transition.
+15
+
+1.4
+P=0.4Pc
+1.2
+
+P=0.7Pc
+
+1.0
+
+P= P c
+P=1.3Pc
+
+0.8
+
+P=1.6Pc
+
+G
+0.6
+0.4
+0.2
+0.0
+0.00
+
+0.02
+
+0.04
+
+0.06
+
+0.08
+
+T
+
+Figure 5: The Gibbs free energy for different pressures. We set γ = 0.2375.
+P = 0.4Pc , 0.7Pc , Pc , 1.3Pc , 1.6Pc for five curves respectively.
+
+But for this kind of black holes, the conventional first law does not work, and the
+differential form of G becomes
+
+
+dG = −SdT + W −1 V dP + W −1 − 1 T dS.
+
+(30)
+
+Even for an isothermal and isobaric process, G is not conserved. The variation of
+Gibbs free energy during the phase transition is
+Z S2
+∆G =
+
+
+W −1 − 1 T dS,
+
+(31)
+
+S1
+
+where S1 and S2 should be determined by Maxwell’s area law in the (S, T ) phase
+16
+
+space [7]
+Z S2
+T dS =T (S1 ) (S2 − S1 ) ,
+S1
+
+(32)
+T (S1 ) = T (S2 ) .
+
+Taking the γ = 0.2375, P = 0.2Pc for an example, Eq. 32 gives the beginning and
+the end of the phase transition in the (T, G) coordinate:
+ptb = (0.020328, 0.74174) ,
+(33)
+pte = (0.020328, 0.98797) .
+But G (T ) has its self-intersections
+i1 = (0.020852, 0.73923) ,
+(34)
+i2 = (0.019214, 1.3949) .
+These results are shown in Fig. 6.
+It is shown in the figure that, considering Maxwell’s area law, the actual physical
+process could be described as follows: If the black hole undergoes an isobaric expansion, its temperature initially increase until it reaches the phase transition point ptb ,
+followed by an isothermal phase transition. During this process, the Gibbs free energy experiences a sudden change in G (T ) graph, rather than a continuous variation
+through the intersections i1 and i2 . After the end of the phase transition pte , the
+temperature begins to rise again, and the Gibbs free energy decreases continuously.
+For our example with γ = 0.2375 and P = 0.2Pc , the change in Gibbs free energy
+during the phase transition is ∆G = 0.24623 ̸= 0.
+17
+
+1.5
+
+i2
+
+1.0
+
+pte
+
+G
+
+ptb
+
+i1
+
+0.5
+
+0.0
+0.000 0.005 0.010 0.015 0.020 0.025 0.030 0.035
+T
+
+Figure 6: The Gibbs free energy and the isothermal phase transition. We set
+γ = 0.2375 and P = 0.2Pc . Points ptb and pte are the beginning and the end of the
+phase transition. Points i1 and i2 are two intersections of G (T ). The result after
+considering Maxwell’s area law is marked by the solid line, while the other part is
+marked by the dotted line.
+
+It should be noted that, according to Ehrenfest’s classification of phase transitions, a discontinuity in the Gibbs free energy indicates a zeroth-order phase transition. Therefore, the phase transition from a small black hole to a large black
+hole that we are discussing should more accurately be referred to as a zeroth-order
+phase transition. The zeroth-order phase transition was first discovered in a dilatonic black hole [50], and was also independently confirmed in the slowly rotating
+18
+
+Einstein–Maxwell-dilaton black hole [51]. However, we would like to point out that
+there is a difference between the mechanisms of these two types of zeroth-order phase
+transitions. In studies [50, 51], the zeroth-order phase transitions observed by the
+researchers are induced by the dilaton-electromagnetic coupling interaction, and for
+these black holes, the first law of thermodynamics dM = T dS + V dP + ΦdQ still
+holds, where Φ is the electric potential and Q is the electric charge. In contrast, for
+the Schwarzschild black holes with LQG corrections, the first law of thermodynamics is violated, and Eq. 31 leads to the discontinuity of the Gibbs free energy, which
+is originally conserved during isothermal and isobaric phase transitions. Moreover,
+since Eq. 31 is a general conclusion, for a four-dimensional static spherically symmetric black holes where the energy-momentum tensor explicitly depends on the black
+hole’s mass, a zeroth-order phase transition is inevitable when P < Pc .
+
+D.
+
+Critical exponents
+
+To calculate the critical exponents, we define
+t=
+
+T
+− 1,
+Tc
+
+ω=
+
+V
+− 1,
+Vc
+
+(35)
+
+where Vc is the thermodynamic volume corresponding to vc . Near the critical point,
+one have t ≃ 0 and ω ≃ 0, Eq. 26 could be approximated as the series
+p=1+
+
+
+81
+135
+81 2
+9 3
+t−
+tω +
+t −
+ω + O tω 2 , t2 ω, ω 4 ,
+28
+112
+896
+140
+19
+
+(36)
+
+which gives
+
+
+dp
+dω
+
+
+
+
+=−
+
+T
+
+
+135
+27 2
+t+
+ω .
+112
+140
+
+(37)
+
+The definition of critical exponents ϵ, λ, ρ and δ could be found in [52]:
+
+
+∂S
+∂T
+
+
+
+∝ |t|−ϵ ,
+
+(38)
+
+η = Vl − Vs ∝ |t|λ ,
+
+
+1 ∂V
+κT = −
+∝ |t|−ρ ,
+V ∂P T
+
+(39)
+
+|P − Pc | ∝ |V − Vc |δ ,
+
+(41)
+
+CV = T
+
+V
+
+(40)
+
+where CV is the isochoric heat capacity, η is the change in thermodynamic volume
+during the phase transition (from a small black hole Vs to a large Vl black hole), κT is
+the isothermal compressibility, and Eq. 41 describes the behavior on the isothermal
+line T = Tc .
+It is evident that CV = 0 leads to ϵ = 0. η could be obtained by Maxwell’s area
+law in (V, P ) phase space [6, 9, 10, 21]:
+I
+V dP = 0,
+
+(42)
+
+Using Eq. 36 and Eq. 37, Maxwell’s area law reads
+1+
+
+81
+135
+81 2
+9 3
+81
+135
+81 2
+9 3
+t−
+tωs +
+t −
+ωs = 1 + t −
+tωl +
+t −
+ω ,
+28
+112
+896
+140
+28
+112
+896
+140 l
+
+
+Z ωl
+135
+27 2
+− (ω + 1)
+t+
+ω dω = 0,
+112
+140
+ωs
+20
+
+(43)
+(44)
+
+where ωs and ωl correspond to Vs and Vl respectively. The solution of this equation
+√
+is ωl = −ωs = 5 −3t/2, which gives λ = 1/2. From Eq. 37, one have
+1
+κT = −
+Pc (ω + 1)
+
+
+
+dω
+dp
+
+
+=
+T
+
+112 1
++ O (ω) ,
+135Pc t
+
+(45)
+
+which indicates ρ = 1. Finally, at the isothermal curve T = Tc , t = 0 insures
+
+p=1−
+
+
+9 3
+ω + O ω4 .
+140
+
+(46)
+
+It gives the last critical exponent δ = 3. It is found that all the exponents are completely consistent with that of the Van der Waals fluid, the RN-AdS black hole and
+the Bardeen-Kiselev black hole [6, 21]. Naturally, it conforms to Griffiths, Rushbrooke and Widom functions [9, 52, 53].
+
+IV.
+
+JOULE-THOMSON EXPANSION
+
+In 1852, J. P. Joule and W. Thomson conducted a porous plug experiment to
+study the internal energy of gases, leading to the discovery of the Joule-Thomson
+effect. In their experiment, the gas undergoes an adiabatic throttling process when
+it flows from high pressure to low pressure, resulting in a change in temperature.
+This process is isenthalpic:
+dH = 0.
+21
+
+(47)
+
+The Joule-Thomson coefficient is defined as
+
+µ=
+
+∂T
+∂P
+
+
+.
+
+(48)
+
+H
+
+The regions where µ > 0 and µ < 0 are the cooling region and the heating region
+respectively. The point where µ = 0 is referred to as the inversion point.
+The Joule-Thomson expansion for AdS black holes in the extended phase space
+has been widely studied [54–61]. Since it is suggested that the black hole’s mass M
+is equivalent to its enthalpy [4], the Joule-Thomson expansion for AdS black holes
+corresponds to a constant mass process dM = 0.
+Eq. 9, Eq. 10 and the negative branch of Eq. 4 give
+P (α, M, r+ ) =
+
+4
+3
+− 3r+
+−3αM 2 + 6M r+
+,
+6
+8πr+
+
+(49)
+
+T (α, M, r+ ) =
+
+3
+4
+−3αM 2 + 3M r+
+− r+
+,
+5
+2πr+
+
+(50)
+
+with the minimum radius of event horizon for a fixed mass M :
+min
+r+
+=
+
+√
+3
+αM .
+
+(51)
+
+The Joule-Thomson coefficient is
+
+µ=
+
+∂T
+∂P
+
+
+
+
+=
+
+M
+
+∂T /∂r+
+∂P/∂r+
+
+
+=
+M
+
+4
+5
+30αM 2 r+ − 12M r+
++ 2r+
+.
+3
+4
+9αM 2 − 9M r+
++ 3r+
+
+(52)
+
+By setting µ to zero, one could obtain the inversion curves, which is presented in
+Fig. 7.
+22
+
+0.35
+0.30
+0.25
+
+γ=0.15
+γ=0.18
+γ=0.21
+γ=0.2375
+
+0.20
+
+γ=0.25
+
+T
+0.15
+0.10
+0.05
+0.00
+0.00
+
+0.01
+
+0.02
+
+0.03
+
+0.04
+
+0.05
+
+0.06
+
+P
+
+Figure 7: The inversion curves for different values of the Barbero-Immirzi
+parameter γ. We set γ = 0.15, 0.18, 0.21, 0.2375, 0.25 in five curves respectively.
+For an inversion curve, it divides the (P, T ) phase space into two zones: the lower
+right side of the curve is the heating region, and the upper left side represents the
+cooling region. We will examine this in the constant mass curves later.
+For a fixed M , Equation µ = 0 has a root if and only if
+√
+49
+6α
+.
+M ≥ Mimin =
+144
+
+(53)
+
+Mimin is called the minimum inversion mass. Any black holes with a mass smaller
+than this value will not exhibit an inversion point. From the inversion curves, the
+inversion temperature will achieve its minimum when the inversion pressure Pi = 0,
+23
+
+leading to the expression
+Timin =
+
+√
+6
+√ .
+28π α
+
+(54)
+
+The ratio between the minimum inversion temperature and the critical temperature
+is
+√
+Timin
+5 30
+=
+,
+Tc
+42
+
+(55)
+
+which also is a constant that is independent of γ. The inversion curves and the
+isenthalpic process for different parameters are shown in Fig. 8.
+In figure, the mass M of the constant mass curves increases from the inside to the
+outside. For each subfigure, the mass M for the second isenthalpic curve is chosen
+as the minimum inversion mass. It is clear that the constant mass curve with the
+critical mass just reaches its inversion point at Pi = 0. And any black holes with
+M < Mimin are always in the heating process.
+
+V.
+
+CONCLUSION AND OUTLOOK
+
+We obtain the Schwarzschild-AdS space-time in LQG correction under the assumption that the cosmological constant is decoupled in LQG, and we studied its
+thermodynamics, including the modified first law, the equation of state and criticality. We drew P − v graph and found that due to the LQG correction, the
+Schwarzschild-AdS black hole exhibits a critical point, and a critical ratio 7/18,
+24
+
+which slightly deviates from that of the Van der Waals system. The deviation of the
+critical ratio from 3/8 is not uncommon in black hole thermodynamics, potentially
+introducing a new insight into the thermodynamics of AdS black holes and even into
+the studies of real gas system. Future astronomical observations or thermodynamic
+studies of real gases may reveal evidence supporting these findings. Moreover, it is
+concluded that if the energy-momentum tensor is related to the black hole’s mass, the
+conventional first law does not hold. The corrected first law will violate the conservation of the Gibbs free energy during the phase transition, potentially indicating the
+occurrence of the zeroth-order phase transition. Furthermore, the Joule-Thomson
+expansion is also discussed in detail. We derived the inversion curves and displayed
+the isenthalpic process in (P, T ) graph, showing that the inversion curve will divide
+(P, T ) phase space into two regions: the heating region and the cooling region. Additionally, there is a minimum inversion mass, below which any black hole will always
+remain in the heating process. Since γ = 0.2375 has been widely used [39–41, 46],
+here we provide a brief list of important thermodynamic values in Tab. I for reference. It is our hope that this research could provide a reference for the studies on
+AdS-black holes in LQG.
+
+It is necessary to claim that in this article we did not consider the coupling between
+LQG and cosmological constant. We believe that taking coupling effect into account
+will be an interesting subject. On the other hand, due to the conventional first law
+25
+
+Table I: List of important values in thermodynamics. All results are retained with
+six significant digits and γ = 0.2375. Critical ratio and Timin /Tc are independent of
+γ.
+
+critical pressure Pc
+0.00286562 (Λc =-0.0720208)
+critical specific volume vc
+5.36640 (r+c =2.68320)
+critical temperature Tc
+0.0395436
+critical ratio Pc vc /Tc
+0.388889
+min
+0.900160
+minimum inversion pressure Mi
+0.0257844
+minimum inversion pressure Tmin
+i
+min
+0.652051
+ratio Ti /Tc
+
+holds no longer, differential forms T dS +V dP and −SdT +V dP are not exact forms.
+Perhaps there will be a better way to define black hole’s enthalpy and Gibbs free
+energy. Moreover, thermodynamics of rotating black hole is also studied in [5, 62–
+65]. So it will bring us more interesting phenomena if we consider the rotation of
+black hole in LQG.
+
+CONFLICTS OF INTEREST
+
+The authors declare that there are no conflicts of interest regarding the publication
+of this paper.
+26
+
+ACKNOWLEDGMENTS
+
+We want to thank the National Natural Science Foundation of China (Grant
+No.11571342) for supporting us on this work.
+
+Appendix A: Modified first law
+
+We denote the metric function of the black hole as f (M, r), where M is black
+hole’s mass, and the radius of horizon r+ ensures
+f (M, r+ ) = 0.
+
+(A.1)
+
+Taking the derivative of r+ for both sides, one have
+∂f ∂M
+∂f
++
+= 0.
+∂M ∂r+ ∂r+
+
+(A.2)
+
+The temperature Tk defined by black hole’s surface gravity is
+Tk =
+
+1 ∂f
+.
+4π ∂r+
+
+(A.3)
+
+The temperature TH derived from the conventional first law dM = TH dS + V dP is
+TH =
+
+∂M
+1 ∂M
+=
+.
+∂S
+2πr+ ∂r+
+
+(A.4)
+
+By using the modified first law W (r+ , Λ) dM = Tk dS + V dP , it is clear that
+W =
+27
+
+Tk
+.
+TH
+
+(A.5)
+
+Using Eq. A.2, Eq. A.3 and Eq. A.4, one could derive
+W =−
+
+r+ ∂f
+.
+2 ∂M r+
+
+(A.6)
+
+This formula lacks physical significance. We need to rewrite it in another form. By
+using the Einstein equation Eq. 15, one get
+∂ (rf )
+= 8πr2 T00 − r2 Λ + 1.
+∂r
+
+(A.7)
+
+Taking the derivative of M on both sides, one could get
+∂
+∂r
+
+
+
+∂f
+∂T 0
+r
+= 8πr2 0 .
+∂M
+∂M
+
+(A.8)
+
+Integrating both sides with respect to r from r+ to +∞, one could obtain
+Z +∞
+r+
+
+∂
+∂r
+
+
+
+Z +∞
+∂f
+∂T 0
+r
+dr =
+8πr2 0 dr.
+∂M
+∂M
+r+
+
+(A.9)
+
+One could derive
+r+ ∂f
+=
+W =−
+2 ∂M
+
+Z +∞
+r+
+
+∂T00
+dr + φ,
+∂M
+
+
+
+
+
+4πr2
+
+(A.10)
+
+where
+φ = lim
+
+r→∞
+
+r ∂f
+−
+2 ∂M
+
+.
+
+(A.11)
+
+Here we assume that the metric of black hole asymptotically approaches the SchwarzschildAdS spacetime at infinity. This means
+f =1−
+
+
+2M
+Λr2
+−
++ O r−2 ,
+r
+3
+28
+
+r → +∞.
+
+(A.12)
+
+Using this condition, it is easy to verify
+
+φ = 1.
+
+(A.13)
+
+Eq. 14 has been proven. This conclusion reveals that if the energy-momentum tensor
+of spacetime contains the black hole’s mass, the conventional first law will be broken.
+Please notice that the assumption Eq. A.12 is necessary, as it could be proven
+that even a slight deformation of the Schwarzschild-AdS spacetime would invalidate
+this conclusion. Considering this metric
+
+f =1−
+
+(2 + ϵ) M
+Λr2
+−
+,
+r
+3
+
+ϵ ≪ 1,
+
+(A.14)
+
+which results in a correction function W = 1 + ϵ/2. However, in this case, the
+energy-momentum tensor is still zero.
+
+[1] Stephen W Hawking and Don N Page. Thermodynamics of black holes in anti-de
+sitter space. Communications in Mathematical Physics, 87:577–588, 1983.
+[2] Andrew Chamblin, Roberto Emparan, Clifford V Johnson, and Robert C Myers.
+
+Charged ads black holes and catastrophic holography.
+
+Physical Review D,
+
+60(6):064018, 1999.
+[3] Andrew Chamblin, Roberto Emparan, Clifford V Johnson, and Robert C Myers.
+
+29
+
+Holography, thermodynamics, and fluctuations of charged ads black holes. Physical
+Review D, 60(10):104026, 1999.
+[4] David Kastor, Sourya Ray, and Jennie Traschen. Enthalpy and the mechanics of ads
+black holes. Classical and Quantum Gravity, 26(19):195011, 2009.
+[5] Brian P Dolan. The cosmological constant and the black hole equation of state.
+Classical and Quantum Gravity, 28(12):125020, 2010.
+[6] David Kubizňák and Robert B Mann. P- v criticality of charged ads black holes.
+Journal of High Energy Physics, 2012(7):1–25, 2012.
+[7] Daniela Magos and Nora Breton. Thermodynamics of the euler-heisenberg-ads black
+hole. Physical Review D, 102(8):084011, 2020.
+[8] Guan-Ru Li, Sen Guo, and En-Wei Liang. High-order qed correction impacts on phase
+transition of the euler-heisenberg ads black hole. Physical Review D, 106(6):064011,
+2022.
+[9] Shao-Wen Wei and Yu-Xiao Liu. Extended thermodynamics and microstructures of
+four-dimensional charged gauss-bonnet black hole in ads space. Physical Review D,
+101(10):104018, 2020.
+[10] Z Dayyani, A Sheykhi, MH Dehghani, and S Hajkhalili. Critical behavior and phase
+transition of dilaton black holes with nonlinear electrodynamics. The European Physical Journal C, 78:1–19, 2018.
+
+30
+
+[11] Cong Li, Chao Fang, Miao He, Jiacheng Ding, and Jianbo Deng. Thermodynamics of the bardeen black hole in anti-de sitter space. Modern Physics Letters A,
+34(40):1950336, 2019.
+[12] Dharm Veer Singh and Sanjay Siwach. Thermodynamics and pv criticality of bardeenads black hole in 4d einstein-gauss-bonnet gravity. Physics Letters B, 808:135658,
+2020.
+[13] Benoy Kumar Singh, Raj Pal Singh, and Dharm Veer Singh. P-v criticality, phase
+structure and extended thermodynamics of ads abg black holes. The European Physical
+Journal Plus, 136(5):575, 2021.
+[14] M Umair Shahzad and Lubna Nosheen. Some remarks on criticality and thermodynamics of the dynamic phantom ads black holes. The European Physical Journal C,
+82(5):1–15, 2022.
+[15] Guan-Ru Li, Guo-Ping Li, and Sen Guo. Phase transition grade and microstructure
+of ads black holes in massive gravity. Classical and Quantum Gravity, 39(19):195011,
+2022.
+[16] Saheb Soroushfar and Sudhaker Upadhyay. Phase transition of a charged ads black
+hole with a global monopole through geometrical thermodynamics. Physics Letters
+B, 804:135360, 2020.
+[17] Zhi Luo, Hao Yu, Shuo Cao, and Jin Li. Shadow thermodynamics of the hayward-ads
+
+31
+
+black hole. Chinese Physics C, 47(6):065102, 2023.
+[18] Mohammad Bagher Jahani Poshteh and Robert B Mann. Thermodynamics of z= 4
+hořava-lifshitz black holes. Physical Review D, 103(10):104024, 2021.
+[19] Yi-Peng Liu, Hui-Ming Cao, and Wei Xu. Reentrant phase transition with a single critical point of the hayward-ads black hole. General Relativity and Gravitation,
+54(1):5, 2022.
+[20] Kh Jafarzade, J Sadeghi, B Eslam Panah, and SH Hendi. Geometrical thermodynamics and pv criticality of charged accelerating ads black holes. Annals of Physics,
+432:168577, 2021.
+[21] Manuel E Rodrigues, Marcos V de S. Silva, and Henrique A Vieira. Bardeen-kiselev
+black hole with a cosmological constant. Physical Review D, 105(8):084043, 2022.
+[22] M Sharif and Qanitah Ama-Tul-Mughani. P-v criticality and phase transition of the
+kerr-sen-ads black hole. The European Physical Journal Plus, 136(3):284, 2021.
+[23] Yan-Gang Miao and Zhen-Ming Xu. Parametric phase transition for a gauss-bonnet
+ads black hole. Physical Review D, 98(8):084051, 2018.
+[24] MM Stetsko. Static black hole in minimal horndeski gravity with maxwell and yangmills fields and some aspects of its thermodynamics. Physical Review D, 109(4):044055,
+2024.
+[25] Werner Heisenberg and Heinrich Euler. Folgerungen aus der diracschen theorie des
+
+32
+
+positrons. Zeitschrift für Physik, 98(11):714–732, 1936.
+[26] Hiroki Yajima and Takashi Tamaki. Black hole solutions in euler-heisenberg theory.
+Physical Review D, 63(6):064007, 2001.
+[27] Xu Ye, Zi-Qing Chen, Ming-Da Li, and Shao-Wen Wei. Qed effects on phase transition and ruppeiner geometry of euler-heisenberg-ads black holes. Chinese Physics C,
+46(11):115102, 2022.
+[28] Heng Dai, Zixu Zhao, and Shuhang Zhang. Thermodynamic phase transition of eulerheisenberg-ads black hole on free energy landscape. Nuclear Physics B, 991:116219,
+2023.
+[29] Emmanuele Battista. Quantum schwarzschild geometry in effective field theory models
+of gravity. Physical Review D, 109(2):026004, 2024.
+[30] John F. Donoghue. Quantum General Relativity and Effective Field Theory, pages
+1–24. Springer Nature Singapore, Singapore, 2023.
+[31] Leonardo Modesto. Disappearance of the black hole singularity in loop quantum
+gravity. Physical Review D, 70(12):124009, 2004.
+[32] Alejandro Corichi and Parampreet Singh. Loop quantization of the schwarzschild
+interior revisited. Classical and Quantum Gravity, 33(5):055006, 2016.
+[33] Cong Zhang, Yongge Ma, Shupeng Song, and Xiangdong Zhang. Loop quantum
+schwarzschild interior and black hole remnant. Physical Review D, 102(4):041502,
+
+33
+
+2020.
+[34] Sabine Hossenfelder, Leonardo Modesto, and Isabeau Prémont-Schwarz. Model for
+nonsingular black hole collapse and evaporation. Physical Review D, 81(4):044036,
+2010.
+[35] Wen-Cong Gan, Nilton O Santos, Fu-Wen Shu, and Anzhong Wang. Properties of the
+spherically symmetric polymer black holes. Physical Review D, 102(12):124030, 2020.
+[36] Viqar Husain, Jarod George Kelly, Robert Santacruz, and Edward Wilson-Ewing.
+Quantum gravity of dust collapse: shock waves from black holes. Physical Review
+Letters, 128(12):121301, 2022.
+[37] Abhay Ashtekar, Javier Olmedo, and Parampreet Singh. Quantum transfiguration of
+kruskal black holes. Physical review letters, 121(24):241301, 2018.
+[38] Rodolfo Gambini and Jorge Pullin. Black holes in loop quantum gravity: the complete
+space-time. Physical review letters, 101(16):161301, 2008.
+[39] Jerzy Lewandowski, Yongge Ma, Jinsong Yang, and Cong Zhang.
+tum oppenheimer-snyder and swiss cheese models.
+
+Quan-
+
+Physical Review Letters,
+
+130(10):101501, 2023.
+[40] Cong Zhang, Yongge Ma, and Jinsong Yang. Black hole image encoding quantum
+gravity information. Physical Review D, 108(10):104004, 2023.
+[41] Jinsong Yang, Cong Zhang, and Yongge Ma. Shadow and stability of quantum-
+
+34
+
+corrected black holes. The European Physical Journal C, 83(7):619, 2023.
+[42] Carlo Rovelli. Black hole entropy from loop quantum gravity. Physical Review Letters,
+77(16):3288, 1996.
+[43] G Barbero and J Fernando. Real ashtekar variables for lorentzian signature spacetimes. Physical Review D, 51(10):5507–5510, 1995.
+[44] Krzysztof A Meissner. Black-hole entropy in loop quantum gravity. Classical and
+Quantum Gravity, 21(22):5245, 2004.
+[45] Marcin Domagala and Jerzy Lewandowski. Black-hole entropy from quantum geometry. Classical and Quantum Gravity, 21(22):5233, 2004.
+[46] Lei You, Yu-Hang Feng, Rui-Bo Wang, Jian-Bo Deng, and Xian-Ru Hu. Decoding quantum gravity information with black hole accretion disk.
+
+arXiv preprint
+
+arXiv:2404.01418, 2024.
+[47] Shi-Jie Ma, Rui-Bo Wang, Jian-Bo Deng, and Xian-Ru Hu. Euler–heisenberg black
+hole surrounded by perfect fluid dark matter. The European Physical Journal C,
+84(6):595, 2024.
+[48] Dharm Veer Singh and Sanjay Siwach. Thermodynamics and pv criticality of bardeenads black hole in 4d einstein-gauss-bonnet gravity. Physics Letters B, 808:135658,
+2020.
+[49] Shao-Wen Wei, Yu-Xiao Liu, et al. Insight into the microscopic structure of an
+
+35
+
+ads black hole from a thermodynamical phase transition. Physical review letters,
+115(11):111302, 2015.
+[50] Amin Dehyadegari, Ahmad Sheykhi, and Afshin Montakhab. Novel phase transition
+in charged dilaton black holes. Physical Review D, 96(8):084012, 2017.
+[51] MM Stetsko. Slowly rotating einstein–maxwell-dilaton black hole and some aspects
+of its thermodynamics. The European Physical Journal C, 79:1–16, 2019.
+[52] H Eugene Stanley and Guenter Ahlers. Introduction to phase transitions and critical
+phenomena. Physics Today, 26(1):71, 1973.
+[53] Robert B Griffiths. Ferromagnets and simple fluids near the critical point: some
+thermodynamic inequalities. The Journal of Chemical Physics, 43(6):1958–1968, 1965.
+[54] Özgür Ökcü and Ekrem Aydıner. Joule–thomson expansion of the charged ads black
+holes. The European Physical Journal C, 77:1–7, 2017.
+[55] Özgür Ökcü and Ekrem Aydıner. Joule–thomson expansion of kerr–ads black holes.
+The European Physical Journal C, 78:1–6, 2018.
+[56] Shihao Bi, Minghao Du, Jun Tao, and Feiyu Yao. Joule-thomson expansion of borninfeld ads black holes. Chinese Physics C, 45(2):025109, 2021.
+[57] Cong Li, Pengzhang He, Ping Li, and Jian-Bo Deng. Joule–thomson expansion of the
+bardeen-ads black holes. General Relativity and Gravitation, 52:1–10, 2020.
+[58] Sen Guo, Jin Pu, Qing-Quan Jiang, and Xiao-Tao Zu. Joule-thomson expansion of
+
+36
+
+the regular (bardeen)-ads black hole. Chinese Physics C, 44(3):035102, 2020.
+[59] Jie-Xiong Mo, Gu-Qiang Li, Shan-Quan Lan, and Xiao-Bao Xu. Joule-thomson expansion of d-dimensional charged ads black holes. Physical Review D, 98(12):124032,
+2018.
+[60] Shan-Quan Lan. Joule-thomson expansion of charged gauss-bonnet black holes in ads
+space. Physical Review D, 98(8):084014, 2018.
+[61] Jie-Xiong Mo and Gu-Qiang Li. Effects of lovelock gravity on the joule–thomson
+expansion. Classical and Quantum Gravity, 37(4):045009, 2020.
+[62] Natacha Altamirano, David Kubizňák, Robert B Mann, and Zeinab Sherkatghanad.
+Thermodynamics of rotating black holes and black rings: phase transitions and thermodynamic volume. Galaxies, 2(1):89–159, 2014.
+[63] Di Wu, Shuang-Qing Wu, et al. Topological classes of thermodynamics of rotating
+ads black holes. Physical Review D, 107(8):084002, 2023.
+[64] Ting-Feng Gong, Jie Jiang, and Ming Zhang. Holographic thermodynamics of rotating
+black holes. Journal of High Energy Physics, 2023(6):1–22, 2023.
+[65] MH Dehghani. Thermodynamics of rotating charged black strings and (a) ds/cft
+correspondence. Physical Review D, 66(4):044006, 2002.
+
+37
+
+0.06
+0.08
+
+0.05
+
+0.06
+
+T
+
+0.04
+
+T 0.03
+
+0.04
+
+0.02
+0.02
+
+0.01
+
+0.00
+0.000 0.005 0.010 0.015 0.020 0.025
+
+0.00
+0.000
+
+0.005
+
+P
+(a)
+
+0.010
+
+0.015
+
+P
+(b)
+
+0.05
+
+0.04
+
+0.04
+
+0.03
+
+0.03
+
+T
+
+T 0.02
+0.02
+0.01
+
+0.01
+0.00
+0.000 0.002 0.004 0.006 0.008 0.010
+
+P
+(c)
+
+0.00
+0.000
+
+0.002
+
+0.004
+
+0.006
+
+0.008
+
+P
+(d )
+
+Figure 8: The inversion curves and the constant mass curves for
+AdS-Schwarzschild-like black hole in LQG for different γ. The red lines represent
+the inversion curves and the blue lines are the isenthalpic lines. We set (a)
+γ = 0.18, M = 0.57, 0.594, 0.63, 0.66; (b) γ = 0.21, M = 0.71, 0.75, 0.79, 0.83; (c)
+γ = 0.2375, M = 0.85, 0.90, 0.95, 1.0; (d) γ = 0.25, M = 0.91, 0.97, 1.03, 1.09.
+
+38
+
+
