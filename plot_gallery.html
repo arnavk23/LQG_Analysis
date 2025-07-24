@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LQG Black Hole Thermodynamics: Enhanced Plot Gallery</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .header p {
+            font-size: 1.2em;
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+        }
+        .parameters {
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 5px solid #2196f3;
+        }
+        .parameters h3 {
+            color: #1976d2;
+            margin-top: 0;
+        }
+        .param-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .param-item {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #bbdefb;
+        }
+        .plot-container {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border: 1px solid #e0e0e0;
+        }
+        .plot-title {
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        .plot-description {
+            color: #555;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        .plot-image {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .plot-image:hover {
+            transform: scale(1.02);
+            border-color: #667eea;
+        }
+        .features {
+            background: #f1f8e9;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .features h4 {
+            color: #388e3c;
+            margin-top: 0;
+        }
+        .features ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .features li {
+            margin: 5px 0;
+        }
+        .quantum-highlight {
+            background: linear-gradient(90deg, #ff9a9e 0%, #fecfef 100%);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .critical-value {
+            color: #d32f2f;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: #263238;
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌌 LQG Black Hole Thermodynamics</h1>
+        <p>Enhanced Plot Gallery: Quantum Corrections to Classical Physics</p>
+        <p><em>Based on arXiv:2405.08241v4 [gr-qc] 23 Nov 2024</em></p>
+    </div>
+
+    <div class="parameters">
+        <h3>🔬 Quantum Physics Parameters</h3>
+        <div class="param-grid">
+            <div class="param-item">
+                <strong>Barbero-Immirzi:</strong> γ = <span class="critical-value">0.2375</span><br>
+                <em>LQG quantum parameter</em>
+            </div>
+            <div class="param-item">
+                <strong>Quantum Correction:</strong> α ≈ <span class="critical-value">1.166330</span><br>
+                <em>Discrete spacetime scale</em>
+            </div>
+            <div class="param-item">
+                <strong>Critical Ratio:</strong> <span class="critical-value">7/18 ≈ 0.388889</span><br>
+                <em>vs Classical 3/8 = 0.375</em>
+            </div>
+            <div class="param-item">
+                <strong>Quantum Deviation:</strong> <span class="quantum-highlight">+3.7%</span><br>
+                <em>Enhancement over classical</em>
+            </div>
+        </div>
+    </div>
+
+    <div class="plot-container">
+        <h2 class="plot-title">📊 Figure 1: Enhanced Gibbs Free Energy Analysis</h2>
+        <p class="plot-description">
+            Demonstrates quantum-corrected phase transitions in black hole thermodynamics. The blue line shows pure quantum gravity effects, while the red dashed line includes cosmological constant contributions.
+        </p>
+        <img src="figure1_gibbs_enhanced.png" alt="Gibbs Free Energy Analysis" class="plot-image">
+        <div class="features">
+            <h4>🔑 Key Physics:</h4>
+            <ul>
+                <li>Phase transition behavior in quantum black holes</li>
+                <li>Thermodynamic stability with quantum corrections</li>
+                <li>Critical points from discrete spacetime geometry</li>
+                <li>Deviations from classical Schwarzschild thermodynamics</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="plot-container">
+        <h2 class="plot-title">📊 Figure 2: P-V Diagrams with Maxwell Construction</h2>
+        <p class="plot-description">
+            Shows quantum phase transitions through pressure-volume isotherms. The critical point exhibits the quantum ratio <span class="quantum-highlight">7/18</span> instead of the classical Van der Waals ratio 3/8.
+        </p>
+        <img src="figure2_pv_diagrams.png" alt="P-V Diagrams" class="plot-image">
+        <div class="features">
+            <h4>🔑 Key Physics:</h4>
+            <ul>
+                <li>Van der Waals-like behavior with quantum corrections</li>
+                <li>Maxwell construction for two-phase coexistence</li>
+                <li><span class="critical-value">3.7% quantum enhancement</span> of critical ratio</li>
+                <li>Universal scaling preserved despite discrete geometry</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="plot-container">
+        <h2 class="plot-title">📊 Figure 3: 3D Quantum Phase Space</h2>
+        <p class="plot-description">
+            Interactive 3D visualization of the complete thermodynamic surface in Volume-Pressure-Temperature space. The red sphere marks the quantum critical point where phase transitions occur.
+        </p>
+        <img src="figure3_3d_phase_space.png" alt="3D Phase Space" class="plot-image">
+        <div class="features">
+            <h4>🔑 Key Physics:</h4>
+            <ul>
+                <li>Complete thermodynamic surface with quantum corrections</li>
+                <li>3D visualization of critical point behavior</li>
+                <li>Parameter space exploration capabilities</li>
+                <li>Quantum field variations across phase space</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="plot-container">
+        <h2 class="plot-title">📊 Figure 4: Enhanced Joule-Thomson Analysis</h2>
+        <p class="plot-description">
+            Left panel shows quantum-corrected inversion curves, while the right panel displays the Joule-Thomson coefficient behavior. Quantum effects modify heating/cooling regions compared to classical systems.
+        </p>
+        <img src="figure4_joule_thomson.png" alt="Joule-Thomson Analysis" class="plot-image">
+        <div class="features">
+            <h4>🔑 Key Physics:</h4>
+            <ul>
+                <li>Quantum thresholds for heating/cooling transitions</li>
+                <li>Enhanced efficiency mechanisms in expansion processes</li>
+                <li>Universal temperature ratios from quantum geometry</li>
+                <li>Modified inversion curves due to discrete spacetime</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="plot-container">
+        <h2 class="plot-title">📊 Figure 5: Critical Exponents Analysis</h2>
+        <p class="plot-description">
+            Four-panel analysis of critical exponents: α=0 (heat capacity), β=1/2 (order parameter), γ=1 (compressibility), and δ=3 (critical isotherm). All classical mean field exponents are preserved despite quantum corrections.
+        </p>
+        <img src="figure5_critical_exponents.png" alt="Critical Exponents" class="plot-image">
+        <div class="features">
+            <h4>🔑 Key Physics:</h4>
+            <ul>
+                <li><span class="quantum-highlight">Universal scaling relations verified</span></li>
+                <li>Mean field exponents preserved: α=0, β=1/2, γ=1, δ=3</li>
+                <li>Quantum corrections modify prefactors, not exponents</li>
+                <li>Fundamental symmetries maintained in quantum regime</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>🎯 Quantum Thermodynamics Summary</h3>
+        <p>
+            These enhanced plots demonstrate that <strong>Loop Quantum Gravity</strong> introduces measurable corrections to black hole thermodynamics while preserving fundamental scaling laws. The <span class="quantum-highlight">3.7% deviation</span> in the critical ratio provides a signature of discrete spacetime geometry that could be tested in holographic systems and analog gravity experiments.
+        </p>
+        <p><em>Generated with professional scientific visualization • Publication-ready quality</em></p>
+    </div>
+</body>
+</html>
